@@ -3,9 +3,9 @@
 An end-to-end voice-enabled conversational system that scrapes Wikipedia articles, builds a vector database, transcribes audio via an ASR model, translates Indian languages to English, and generates answers using Retrieval-Augmented Generation (RAG). Includes a React frontend with a FastAPI backend for full-stack deployment.
 
 ---
-![Demo Image](Assets\image.png)
+![Demo Image](Assets/image.png)
 
-![ChatBot UI](Assets\image-copy.png)
+![ChatBot UI](Assets/image-copy.png)
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
