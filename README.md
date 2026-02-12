@@ -3,7 +3,9 @@
 An end-to-end voice-enabled conversational system that scrapes Wikipedia articles, builds a vector database, transcribes audio via an ASR model, translates Indian languages to English, and generates answers using Retrieval-Augmented Generation (RAG). Includes a React frontend with a FastAPI backend for full-stack deployment.
 
 ---
+![Demo Image](Assets\image.png)
 
+![ChatBot UI](Assets\image-copy.png)
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -43,8 +45,8 @@ An end-to-end voice-enabled conversational system that scrapes Wikipedia article
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd AI4Bharat
+git clone https://github.com/Ishtiyaque-Alam/ChatBot.git
+cd ChatBot
 
 # Create and activate a virtual environment
 python -m venv venv
@@ -138,7 +140,7 @@ API documentation is available at `http://localhost:8081/docs` once running.
 Testing the endpoint directly:
 
 ```bash
-curl -X POST http://localhost:8081/transcribe -F "file=@audio.wav"
+curl -X POST http://localhost:8081/transcribe -F "Assets\Recording (4) copy.wav"
 ```
 
 Response:
