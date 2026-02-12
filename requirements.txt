@@ -1,0 +1,34 @@
+# ── Core ─────────────────────────────────────────
+wikipedia
+beautifulsoup4
+requests
+
+# ── Vector DB & Embeddings ───────────────────────
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+sentence-transformers
+
+# ── ASR Server ───────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+transformers
+torch
+torchaudio
+librosa
+soundfile
+moviepy
+
+# ── Translation & LLM ───────────────────────────
+python-dotenv
+groq
+
+# ── UI ───────────────────────────────────────────
+gradio
+
+# ── Chat History (MySQL) ─────────────────────────
+sqlalchemy
+pymysql
+cryptography
